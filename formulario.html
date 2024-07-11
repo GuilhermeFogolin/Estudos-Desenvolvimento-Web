@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <h1> Página de formulário </h1>
+
+    <p> Estudos de formulários com vídeos do canal Programação Web, autoria de Dimitri Teixeira.</p>
+
+    <a href="index.html"> Voltar para página principal </a>
+
+    <br><br>
+
+    <form>
+
+        <!-- Legenda para nome -->
+        <label for="nome"> Nome: </label>
+
+        <!-- Input para nome -->
+        <input id="nome" type="text" placeholder="Digite seu nome aqui" required>
+
+        <br><br>
+
+        <!-- Legenda para email -->
+        <label for="campo_email"> Email: </label>
+
+        <!-- Input para email -->
+        <input id="campo_email" type="email" placeholder="Digite seu email aqui" required>
+
+        <br><br>
+
+        <!-- Legenda para senha -->
+        <label for="campo_senha"> Senha: </label>
+
+        <!-- Input para senha -->
+        <input id="campo_senha" type="password" placeholder="Digite sua senha aqui" required>
+
+        <br><br>
+
+        <h2> Animais de estimação </h2>
+
+        <!-- Input para selecionar animal -->
+        <input type="radio" id="dog" name="animal" value="Cachorro">
+
+        <!-- Opção -->
+        <label for="dog"> Cachorro </label>
+
+        <br><br>
+
+        <!-- Input para selecionar animal -->
+        <input type="radio" id="cat" name="animal" value="Gato">
+
+        <!-- Opção -->
+        <label for="cat"> Gato </label>
+
+        <br><br>
+
+        <!-- Input para selecionar animal -->
+        <input type="radio" id="bird" name="animal" value="Passarinho">
+
+        <!-- Opção -->
+        <label for="bird"> Passarinho </label>
+
+        <br><br>
+
+        <h2> Plantinhas que você tem? </h2>
+
+        <!-- Input para selecionar planta -->
+        <input type="checkbox" id="item1" name="plantas" value="Suculenta">
+
+        <!-- Opção -->
+        <label for="item1"> Suculenta </label>
+
+        <br><br>
+
+        <!-- Input para selecionar planta -->
+        <input type="checkbox" id="item2" name="plantas" value="Rosas">
+
+        <!-- Opção -->
+        <label for="item2"> Rosas </label>
+
+        <br><br>
+
+        <!-- Input para selecionar planta -->
+        <input type="checkbox" id="item3" name="plantas" value="Gibóia">
+
+        <!-- Opção -->
+        <label for="item3"> Gibóia </label>
+
+        <br><br>
+
+        <h2> Escolha uma cor: </h2>
+
+        <!-- Input para selecionar cores -->
+        <select>
+            <option selected disabled=""> Selecione uma cor </option>
+            <option value="Vermelho"> Vermelho </option>
+            <option value="Azul"> Azul </option>
+            <option value="Preto"> Preto </option>
+            <option value="Amarelo"> Amarelo </option>
+        </select>
+
+        <br><br>
+
+        <h2> Digite seu comentário </h2>
+
+        <!-- Input de textos maiores -->
+        <textarea name="Área de comentários" placeholder="Digite aqui seu comentário:"> </textarea>
+
+        <br><br><br>
+
+        <!-- Input para botão de formulário -->
+        <input type="submit" value="Enviar formulário">
+
+    </form>
+
+</body>
+
+</html>
